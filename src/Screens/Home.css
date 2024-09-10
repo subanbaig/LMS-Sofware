@@ -1,0 +1,58 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .home h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .home table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .home table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  .home th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .home th {
+    background-color: #f4f4f4;
+  }
+  
+  .home button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #ca0c2a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .home .register-button {
+    background-color: #ca0c2a;
+  }
+  
+  .home button:hover {
+    opacity: 0.8;
+  }
+  
+  .logout-button {
+    align-self: flex-end;
+    margin-bottom: 20px;
+    background-color: #f44336;
+  }
+  

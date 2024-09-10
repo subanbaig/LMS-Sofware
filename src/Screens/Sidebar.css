@@ -1,0 +1,105 @@
+.sidebar {
+  display: grid;
+  justify-items: center;
+  align-items: end;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  padding: 20px;
+  background-image: linear-gradient(to right top, #eeaeca, #deb0d9, #c8b3e4, #afb7ea, #94bbe9);
+  color: black;
+}
+
+.sidebar h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #000000;
+  /* Title color */
+}
+
+.sidebar a {
+  color: black;
+  /* Link color */
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+  /* Spacing between links */
+  border-radius: 4px;
+  /* Rounded corners */
+}
+
+.sidebar a:hover {
+  background-color: #f1f1f1;
+  /* Hover background */
+  color: #333;
+  /* Hover text color */
+}
+
+.logout-button {
+  margin-top: auto;
+  /* Push button to bottom */
+  width: 100%;
+  padding: 10px;
+  background-color: #ca0c2a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #eb8c9a;
+  /* Hover background for button */
+  color: black;
+  /* Hover text color */
+}
+
+.dropdown-btn {
+  background-color: #ca0c2a;
+  border: none;
+  padding: 15px 20px;
+  text-align: left;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+  color: white;
+  border-radius: 4px;
+}
+
+.dropdown-btn:hover {
+  background-color: #f1f1f1;
+  /* Hover background for dropdown button */
+  color: #333;
+  /* Hover text color for dropdown button */
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  /* Indent dropdown content */
+  margin-top: 5px;
+}
+
+.dropdown-content a {
+  padding: 8px 0;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #dcdcdc;
+  /* Hover background for dropdown items */
+  color: #333;
+  /* Hover text color for dropdown items */
+}
+
+.content {
+  margin-left: 220px;
+  /* Adjust content margin to accommodate the fixed sidebar */
+  padding: 20px;
+}

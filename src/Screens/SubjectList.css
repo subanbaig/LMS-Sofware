@@ -1,0 +1,42 @@
+.subject-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .subject-list h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .subject-list table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+  }
+  
+  .subject-list th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .subject-list th {
+    background-color: #f4f4f4;
+  }
+  
+  .subject-list button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #ca0c2a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .subject-list button:hover {
+    opacity: 0.8;
+  }
+  

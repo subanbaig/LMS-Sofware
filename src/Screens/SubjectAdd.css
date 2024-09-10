@@ -1,0 +1,56 @@
+.add-subject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  max-width: 600px;
+  margin: 60px auto;
+  background: #e29191;
+  border-radius: 8px;
+  background-image: linear-gradient(to right top, #eeaeca, #deb0d9, #c8b3e4, #afb7ea, #94bbe9);
+}
+
+.add-subject h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-subject form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.add-subject input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.radio-group {
+  margin: 20px 0;
+}
+
+.radio-group h3 {
+  color: #333;
+}
+
+.radio-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-subject button {
+  padding: 10px;
+  background-color: #ca0c2a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-subject button:hover {
+  background-color: #eb8c9a;
+}
