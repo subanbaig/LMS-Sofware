@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 // import { signOut } from "firebase/auth";
-import { db, auth } from "../config/firebase";
+import db from '../Config/Firebase'
 import { collection, getDocs, updateDoc, deleteDoc, doc } from "firebase/firestore";
 import './Home.css';
 
@@ -58,14 +58,14 @@ const Home = () => {
           </tr>
         </thead>
         <tbody>
-          {dataList.map(data => (
-            <tr key={data.id}>
-              <td>{data.firstName}</td>
-              <td>{data.lastName}</td>
-              <td>{data.email}</td>
-              <td>{data.gender}</td>
-              <td><button onClick={() => handleEdit(data.id)}>Edit</button></td>
-              <td><button onClick={() => handleDelete(data.id)}>Delete</button></td>
+          {dataList.map(e => (
+            <tr key={e.id}>
+              <td>{e.firstName}</td>
+              <td>{e.lastName}</td>
+              <td>{e.email}</td>
+              <td>{e.gender}</td>
+              <td><button onClick={() => handleEdit(e.id)}>Edit</button></td>
+              <td><button onClick={() => handleDelete(e.id)}>Delete</button></td>
             </tr>
           ))}
         </tbody>
