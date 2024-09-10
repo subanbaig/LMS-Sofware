@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { collection, getDocs, updateDoc, deleteDoc, doc } from "firebase/firestore";
-import db from '../Config/Firebase'
+import { db } from '../Config/Firebase';
 import './Home.css';
 
 const TeacherList = () => {

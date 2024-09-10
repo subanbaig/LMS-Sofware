@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { collection, getDocs, doc, updateDoc, deleteDoc } from "firebase/firestore";
-import db from '../Config/Firebase'
+import { db } from '../Config/Firebase';
 import './SubjectList.css';
 
 const SubjectList = () => {

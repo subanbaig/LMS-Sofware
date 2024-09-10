@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 // import { signOut } from "firebase/auth";
-import db from '../Config/Firebase'
+import { db } from '../Config/Firebase';
 import { collection, getDocs, updateDoc, deleteDoc, doc } from "firebase/firestore";
 import './Home.css';
 
