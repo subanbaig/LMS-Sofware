@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import './Sidebar.css';
 import { signOut } from "firebase/auth";
-import auth from '../Config/Firebase'
+import {auth} from '../Config/Firebase'
 
 
 const Sidebar = ({ setIsAuthenticated }) => {
