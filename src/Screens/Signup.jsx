@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { collection, addDoc } from "firebase/firestore";
-import { auth, db } from "../config/firebase";
+import {db, auth} from '../Config/Firebase'
 import './Signup.css';
 
 const Signup = ({ setIsAuthenticated }) => {

@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import './Sidebar.css';
 import { signOut } from "firebase/auth";
-import { auth } from "../config/firebase";
+import auth from '../Config/Firebase'
+
 
 const Sidebar = ({ setIsAuthenticated }) => {
   const [dropdowns, setDropdowns] = useState({
